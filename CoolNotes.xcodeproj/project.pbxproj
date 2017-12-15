@@ -14,6 +14,8 @@
 		294246151FE47EB000C59926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294246131FE47EB000C59926 /* LaunchScreen.storyboard */; };
 		294246201FE47EB000C59926 /* CoolNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942461F1FE47EB000C59926 /* CoolNotesTests.swift */; };
 		2942462B1FE47EB000C59926 /* CoolNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942462A1FE47EB000C59926 /* CoolNotesUITests.swift */; };
+		2942463A1FE47FF300C59926 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 294246381FE47FF300C59926 /* Model.xcdatamodeld */; };
+		2942463C1FE4829000C59926 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942463B1FE4829000C59926 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		294246261FE47EB000C59926 /* CoolNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2942462A1FE47EB000C59926 /* CoolNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolNotesUITests.swift; sourceTree = "<group>"; };
 		2942462C1FE47EB000C59926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294246391FE47FF300C59926 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2942463B1FE4829000C59926 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				294246111FE47EB000C59926 /* Assets.xcassets */,
 				294246131FE47EB000C59926 /* LaunchScreen.storyboard */,
 				294246161FE47EB000C59926 /* Info.plist */,
+				294246381FE47FF300C59926 /* Model.xcdatamodeld */,
+				2942463B1FE4829000C59926 /* CoreDataStack.swift */,
 			);
 			path = CoolNotes;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				2942460D1FE47EB000C59926 /* ViewController.swift in Sources */,
 				2942460B1FE47EB000C59926 /* AppDelegate.swift in Sources */,
+				2942463A1FE47FF300C59926 /* Model.xcdatamodeld in Sources */,
+				2942463C1FE4829000C59926 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +566,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		294246381FE47FF300C59926 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				294246391FE47FF300C59926 /* Model.xcdatamodel */,
+			);
+			currentVersion = 294246391FE47FF300C59926 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 294245FF1FE47EB000C59926 /* Project object */;
 }
